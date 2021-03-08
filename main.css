@@ -307,12 +307,14 @@ h5 {
   font-family: var(--body-font);
   letter-spacing: 0.1em;
   font-weight: 600;
-  border-width: 2px;
+  border-width: 3px;
   padding: 0.75rem 2rem;
   border-color: var(--heading-color);
   border-radius: 8px;
+  border-style: solid;
 }
 .btn-default:hover {
+  border-style: solid;
   background-color: var(--body-color);
   border-color: var(--dark-body-color);
   color: var(--dark-body-color);
@@ -455,5 +457,11 @@ h5 {
 @media screen and (max-width: 321.5px) {
   .section {
     padding: 0 0.5rem;
+  }
+  #proj-content,.about-content{
+    text-align: left;
+  }
+  .contact-content{
+    margin-bottom: 3rem;
   }
 }
